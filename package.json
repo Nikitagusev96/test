@@ -2,7 +2,7 @@
   "name": "xmas-tree",
   "version": "1.0.0",
   "scripts": {
-    "start": "ts-node src/cli.ts",
+    "start": "ts-node src/cli.ts tree.txt",
     "test": "npx playwright test",
     "format": "prettier --write ."
   },
@@ -11,5 +11,6 @@
     "typescript": "^4.0.0",
     "@playwright/test": "^1.30.0",
     "@types/node": "^18.0.0"
+
   }
 }
